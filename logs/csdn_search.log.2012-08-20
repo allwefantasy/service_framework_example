@@ -1,0 +1,150 @@
+[2012-08-20 20:16:41,634][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:16:41,647][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:16:41,652][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:16:41,656][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:16:42,524][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-20 20:16:42,527][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-20 20:16:42,528][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-20 20:16:42,529][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-20 20:16:42,530][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-20 20:16:42,531][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-20 20:16:42,605][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-20 20:16:42,620][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-20 20:16:42,634][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-20 20:16:42,642][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-20 20:16:43,606][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:43,638][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:43,768][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:43,817][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-08-20 20:16:43,975][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-08-20 20:16:44,153][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8piuvayswcj01|793172b2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8piuvayswcj01|793172b2, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-08-20 20:16:44,280][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,321][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8piuvayswcj01|2ab7843f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8piuvayswcj01|2ab7843f, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-08-20 20:16:44,376][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,415][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,422][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,429][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,437][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,448][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,480][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,493][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,503][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,516][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,529][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,563][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-20 20:16:44,586][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,604][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,634][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,641][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,647][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,656][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,662][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,671][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,679][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,687][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,694][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,705][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,753][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,764][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,774][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,783][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,793][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,804][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,814][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,825][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,835][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,846][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,861][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-20 20:16:44,908][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:16:44,956][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-20 20:16:44,964][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-08-20 20:28:17,499][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:28:17,506][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:28:17,508][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:28:17,510][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:35:13,388][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:35:13,396][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:35:13,398][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:35:13,400][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:45:37,653][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:45:37,662][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:45:37,664][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:45:37,666][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:53:48,136][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:53:48,142][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:53:48,144][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:53:48,146][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:53:48,541][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-20 20:53:48,543][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-20 20:53:48,544][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-20 20:53:48,544][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-20 20:53:48,545][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-20 20:53:48,545][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-20 20:53:48,610][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-20 20:53:48,621][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-20 20:53:48,639][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-20 20:53:48,644][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-20 20:56:23,603][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:56:23,613][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:56:23,617][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:56:23,619][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:56:24,015][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-20 20:56:24,016][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-20 20:56:24,017][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-20 20:56:24,017][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-20 20:56:24,018][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-20 20:56:24,018][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-20 20:56:24,075][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-20 20:56:24,087][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-20 20:56:24,106][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-20 20:56:24,112][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-20 20:56:58,143][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:56:58,150][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:56:58,152][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:56:58,153][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 20:56:58,530][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-20 20:56:58,532][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-20 20:56:58,532][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-20 20:56:58,532][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-20 20:56:58,533][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-20 20:56:58,533][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-20 20:56:58,619][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-20 20:56:58,632][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-20 20:56:58,663][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-20 20:56:58,673][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-20 20:57:16,478][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 20:57:16,485][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 20:57:16,487][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 20:57:16,489][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:01:13,599][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:01:13,607][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:01:13,610][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:01:13,612][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:02:50,270][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:02:50,278][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:02:50,280][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:02:50,282][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:06:29,086][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:06:29,094][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:06:29,096][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:06:29,098][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:14:10,058][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:14:10,066][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:14:10,068][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:14:10,070][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:17:36,029][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:17:36,036][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:17:36,038][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:17:36,039][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:19:08,973][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:19:08,980][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:19:08,981][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:19:08,983][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 21:35:38,625][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 21:35:38,632][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 21:35:38,634][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 21:35:38,636][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-20 22:10:39,913][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-20 22:10:39,928][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-20 22:10:39,932][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-20 22:10:39,936][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist

@@ -1,0 +1,314 @@
+[2012-08-03 07:05:40,341][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:05:40,403][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 07:18:54,192][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 07:18:54,198][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 07:18:54,200][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 07:18:54,201][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 07:18:54,655][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 07:18:54,657][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 07:18:54,657][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 07:18:54,657][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 07:18:54,657][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 07:18:54,658][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 07:18:54,712][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 07:18:54,722][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 07:18:54,734][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 07:18:54,739][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 07:18:55,301][INFO ][com.example.controller.admin.TagAdminController] execute time:[1284]
+[2012-08-03 07:19:06,147][INFO ][com.example.controller.admin.TagAdminController] execute time:[2]
+[2012-08-03 07:20:12,945][INFO ][com.example.controller.admin.TagAdminController] execute time:[5]
+[2012-08-03 07:20:23,082][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:20:23,118][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 07:20:29,699][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 07:20:29,709][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 07:20:29,711][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 07:20:29,712][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 07:20:30,202][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 07:20:30,203][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 07:20:30,203][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 07:20:30,204][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 07:20:30,204][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 07:20:30,204][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 07:20:30,256][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 07:20:30,267][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 07:20:30,283][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 07:20:30,288][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 07:20:31,103][INFO ][com.example.controller.admin.TagAdminController] execute time:[1577]
+[2012-08-03 07:21:14,500][INFO ][com.example.controller.admin.TagAdminController] execute time:[4]
+[2012-08-03 07:22:37,816][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:22:37,851][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 07:22:46,530][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 07:22:46,536][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 07:22:46,538][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 07:22:46,539][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 07:22:47,018][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 07:22:47,019][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 07:22:47,019][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 07:22:47,019][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 07:22:47,020][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 07:22:47,020][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 07:22:47,073][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 07:22:47,084][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 07:22:47,095][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 07:22:47,100][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 07:22:47,870][INFO ][com.example.controller.admin.TagAdminController] execute time:[1535]
+[2012-08-03 07:25:26,190][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:25:26,225][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 07:25:40,849][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 07:25:40,855][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 07:25:40,856][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 07:25:40,858][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 07:25:41,352][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 07:25:41,354][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 07:25:41,354][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 07:25:41,354][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 07:25:41,354][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 07:25:41,355][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 07:25:41,412][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 07:25:41,424][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 07:25:41,436][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 07:25:41,440][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 07:25:42,223][INFO ][com.example.controller.admin.TagAdminController] execute time:[1552]
+[2012-08-03 07:25:48,012][INFO ][com.example.controller.admin.TagAdminController] execute time:[10]
+[2012-08-03 07:26:48,958][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:26:48,992][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 07:26:53,838][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 07:26:53,845][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 07:26:53,847][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 07:26:53,848][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 07:26:54,328][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 07:26:54,330][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 07:26:54,330][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 07:26:54,330][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 07:26:54,331][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 07:26:54,331][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 07:26:54,390][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 07:26:54,402][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 07:26:54,414][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 07:26:54,418][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 07:26:55,254][INFO ][com.example.controller.admin.TagAdminController] execute time:[1597]
+[2012-08-03 07:27:00,816][INFO ][com.example.controller.admin.TagAdminController] execute time:[18]
+[2012-08-03 07:30:37,085][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:30:37,119][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 07:30:41,487][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 07:30:41,496][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 07:30:41,498][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 07:30:41,500][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 07:30:41,983][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 07:30:41,985][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 07:30:41,985][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 07:30:41,985][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 07:30:41,986][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 07:30:41,986][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 07:30:42,045][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 07:30:42,055][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 07:30:42,071][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 07:30:42,076][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 07:32:01,285][INFO ][com.example.controller.admin.TagAdminController] execute time:[19]
+[2012-08-03 07:59:57,859][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 07:59:57,909][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 08:00:11,147][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:00:11,154][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:00:11,156][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:00:11,158][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:00:11,680][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:00:11,682][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:00:11,683][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:00:11,683][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:00:11,684][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:00:11,685][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:00:11,744][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:00:11,754][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:00:11,767][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:00:11,772][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:00:12,868][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:00:13,022][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:00:13,122][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:01:55,386][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:01:55,393][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:01:55,395][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:01:55,397][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:01:55,947][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:01:55,950][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:01:55,951][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:01:55,951][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:01:55,952][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:01:55,953][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:01:56,011][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:01:56,023][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:01:56,060][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:01:56,067][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:01:57,073][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:01:57,263][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:01:57,376][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:04:03,347][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:04:03,355][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:04:03,357][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:04:03,359][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:04:03,885][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:04:03,887][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:04:03,888][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:04:03,888][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:04:03,889][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:04:03,890][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:04:03,947][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:04:03,958][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:04:03,969][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:04:03,975][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:04:05,121][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:04:05,250][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:04:05,351][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:05:13,398][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:05:13,405][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:05:13,407][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:05:13,409][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:05:13,901][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:05:13,905][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:05:13,906][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:05:13,907][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:05:13,908][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:05:13,910][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:05:13,961][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:05:13,972][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:05:14,007][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:05:14,015][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:05:14,999][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:05:15,165][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:05:15,238][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:06:28,233][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:06:28,241][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:06:28,243][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:06:28,245][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:06:28,753][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:06:28,756][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:06:28,756][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:06:28,757][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:06:28,758][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:06:28,759][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:06:28,817][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:06:28,828][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:06:28,858][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:06:28,864][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:06:29,904][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:06:30,098][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:06:30,171][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:07:40,288][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:07:40,295][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:07:40,297][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:07:40,299][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:07:40,820][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:07:40,823][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:07:40,824][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:07:40,824][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:07:40,825][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:07:40,826][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:07:40,888][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:07:40,899][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:07:40,912][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:07:40,917][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:07:42,030][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:07:42,205][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:07:42,294][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:08:23,251][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:08:23,259][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:08:23,260][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:08:23,262][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:08:23,781][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:08:23,783][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:08:23,784][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:08:23,785][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:08:23,787][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:08:23,788][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:08:23,844][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:08:23,857][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:08:23,888][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:08:23,897][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:08:24,868][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:08:25,014][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:08:25,118][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:08:53,186][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:08:53,193][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:08:53,196][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:08:53,198][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:08:53,703][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:08:53,706][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:08:53,706][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:08:53,707][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:08:53,708][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:08:53,708][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:08:53,767][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:08:53,779][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:08:53,810][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:08:53,815][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:08:54,817][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:08:55,022][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-08-03 08:08:55,089][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 08:17:06,508][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 08:17:06,521][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 08:17:06,523][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 08:17:06,527][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 08:17:07,266][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 08:17:07,269][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 08:17:07,271][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 08:17:07,271][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 08:17:07,272][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 08:17:07,273][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 08:17:07,339][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 08:17:07,353][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 08:17:07,369][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 08:17:07,375][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 08:17:08,644][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-08-03 13:06:16,222][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 13:06:16,289][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 13:13:24,814][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 13:13:24,825][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 13:13:24,829][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 13:13:24,832][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 13:13:25,695][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 13:13:25,697][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 13:13:25,697][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 13:13:25,697][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 13:13:25,697][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 13:13:25,699][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 13:13:25,772][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 13:13:25,787][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 13:13:25,800][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 13:13:25,810][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 13:15:20,253][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 13:15:20,296][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 13:15:59,541][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 13:15:59,581][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 13:15:59,583][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 13:15:59,584][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 13:16:00,281][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 13:16:00,283][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 13:16:00,283][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 13:16:00,284][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 13:16:00,284][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 13:16:00,284][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 13:16:00,346][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 13:16:00,359][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 13:16:00,374][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 13:16:00,380][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 13:16:01,308][INFO ][com.example.controller.admin.TagAdminController] execute time:[1977]
+[2012-08-03 13:16:18,726][INFO ][com.example.controller.admin.TagAdminController] execute time:[4]
+[2012-08-03 13:16:41,959][INFO ][com.example.controller.admin.TagAdminController] execute time:[5]
+[2012-08-03 13:16:53,486][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-08-03 13:16:53,529][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-08-03 13:16:57,560][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-08-03 13:16:57,589][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-08-03 13:16:57,591][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-08-03 13:16:57,593][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-08-03 13:16:58,288][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-08-03 13:16:58,290][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-08-03 13:16:58,290][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-08-03 13:16:58,290][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-08-03 13:16:58,291][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-08-03 13:16:58,291][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-08-03 13:16:58,353][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-08-03 13:16:58,367][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-08-03 13:16:58,382][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-08-03 13:16:58,393][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-08-03 13:16:59,332][INFO ][com.example.controller.admin.TagAdminController] execute time:[1977]
+[2012-08-03 13:18:18,018][INFO ][com.example.controller.admin.TagAdminController] execute time:[68]
+[2012-08-03 13:18:25,318][INFO ][com.example.controller.admin.TagAdminController] execute time:[19]

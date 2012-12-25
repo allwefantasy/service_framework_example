@@ -1,0 +1,365 @@
+[2012-10-30 14:00:29,950][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:00:30,009][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:00:30,512][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:00:30,524][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:00:30,527][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:00:30,530][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:00:31,331][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:00:31,333][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:00:31,341][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:00:31,342][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:00:31,380][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:00:31,384][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:00:31,384][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:00:31,385][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:00:31,386][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:00:31,387][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:00:31,469][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:00:31,485][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:00:31,507][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:00:31,517][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:00:32,665][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:00:32,711][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:00:32,959][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cwkw88sg3s86|16942b90, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cwkw88sg3s86|16942b90, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:02:27,528][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:02:27,570][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:02:27,954][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:02:27,960][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:02:27,962][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:02:27,964][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:02:28,396][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:02:28,397][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:02:28,402][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:02:28,403][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:02:28,425][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:02:28,428][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:02:28,428][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:02:28,430][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:02:28,430][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:02:28,431][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:02:28,484][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:02:28,494][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:02:28,508][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:02:28,517][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:02:29,400][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:02:29,602][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cwnexy1ksr57q|58e4df82, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cwnexy1ksr57q|58e4df82, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:05:16,477][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:05:16,531][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:05:17,029][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:05:17,039][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:05:17,041][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:05:17,043][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:05:17,595][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:05:17,596][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:05:17,602][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:05:17,603][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:05:17,630][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:05:17,633][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:05:17,633][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:05:17,634][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:05:17,635][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:05:17,636][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:05:17,710][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:05:17,723][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:05:17,751][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:05:17,759][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:05:18,984][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:05:19,022][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:05:19,274][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cwr1b91v5ge10|566faf61, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cwr1b91v5ge10|566faf61, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:09:42,714][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:09:43,078][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:09:59,966][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:09:59,976][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:09:59,979][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:09:59,981][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:10:00,562][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:10:00,563][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:10:00,572][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:10:00,573][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:10:00,603][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:10:00,606][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:10:00,607][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:10:00,607][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:10:00,608][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:10:00,609][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:10:00,685][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:10:00,701][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:10:00,720][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:10:00,729][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:10:01,902][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:10:02,294][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cwwqxm5jpv2z|796c1a02, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cwwqxm5jpv2z|796c1a02, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:11:03,392][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:11:03,445][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:11:03,916][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:11:03,931][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:11:03,937][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:11:03,939][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:11:04,863][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cwygzr16ean0|92b9de8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cwygzr16ean0|92b9de8, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:12:38,644][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:12:38,686][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:12:39,056][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:12:39,063][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:12:39,065][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:12:39,067][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:12:39,504][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:12:39,505][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:12:39,510][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:12:39,511][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:12:39,534][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:12:39,537][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:12:39,537][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:12:39,538][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:12:39,539][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:12:39,540][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:12:39,599][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:12:39,610][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:12:39,624][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:12:39,631][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:12:40,572][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:12:40,793][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cx0ihddfvnne|c7740e7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cx0ihddfvnne|c7740e7, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:15:24,509][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:15:24,555][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:15:24,994][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:15:25,002][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:15:25,004][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:15:25,006][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:15:25,511][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:15:25,512][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:15:25,517][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:15:25,518][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:15:25,544][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:15:25,546][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:15:25,547][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:15:25,548][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:15:25,548][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:15:25,549][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:15:25,606][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:15:25,617][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:15:25,637][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:15:25,644][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:15:26,636][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:15:26,849][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cx42gu1hoz14t|71761366, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cx42gu1hoz14t|71761366, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:15:41,906][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:15:41,952][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:15:42,418][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:15:42,427][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:15:42,429][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:15:42,431][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:15:42,954][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:15:42,955][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:15:42,961][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:15:42,962][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:15:42,988][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:15:42,991][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:15:42,991][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:15:42,992][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:15:42,993][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:15:42,993][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:15:43,047][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:15:43,061][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:15:43,077][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:15:43,085][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:15:44,190][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:17:47,966][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:17:48,018][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:17:48,472][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:17:48,480][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:17:48,490][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:17:48,493][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:17:49,024][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:17:49,025][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:17:49,034][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:17:49,034][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:17:49,070][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:17:49,072][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:17:49,073][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:17:49,074][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:17:49,074][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:17:49,075][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:17:49,132][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:17:49,155][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:17:49,168][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:17:49,177][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:17:50,330][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:17:50,383][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:23:45,711][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:23:45,757][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:23:46,139][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:23:46,145][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:23:46,147][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:23:46,149][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:23:46,592][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:23:46,593][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:23:46,598][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:23:46,599][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:23:46,621][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:23:46,624][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:23:46,625][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:23:46,625][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:23:46,626][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:23:46,627][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:23:46,683][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:23:46,694][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:23:46,710][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:23:46,721][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:23:47,611][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:23:47,651][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:23:47,962][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cxet71oapje3|65dd340f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cxet71oapje3|65dd340f, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:24:19,585][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 14:24:19,629][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 14:24:20,012][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 14:24:20,022][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 14:24:20,024][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 14:24:20,026][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 14:24:20,504][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 14:24:20,505][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 14:24:20,510][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 14:24:20,511][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 14:24:20,537][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 14:24:20,539][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 14:24:20,540][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 14:24:20,540][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 14:24:20,541][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 14:24:20,542][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 14:24:20,599][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 14:24:20,610][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 14:24:20,623][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 14:24:20,628][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 14:24:21,588][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:21,826][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:21,877][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:21,959][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1cxfjc2z15d8j|40b3f220, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1cxfjc2z15d8j|40b3f220, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 14:24:22,052][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,078][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,086][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,093][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,101][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,109][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,118][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,128][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,137][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,146][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,155][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,183][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-10-30 14:24:22,207][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,229][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,253][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,263][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,269][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,276][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,284][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,293][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,306][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,318][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,330][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,339][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,375][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,381][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,388][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,394][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,402][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,411][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,421][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,429][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,436][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,444][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,460][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-10-30 14:24:22,509][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,551][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-10-30 14:24:22,560][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 14:24:22,575][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 15:42:48,137][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-10-30 15:42:48,203][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-10-30 15:43:38,129][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 15:43:38,140][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 15:43:38,143][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 15:43:38,146][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 15:43:38,485][INFO ][com.example.controller.admin.TagAdminController] execute time:[611]
+[2012-10-30 15:43:38,537][WARN ][org.eclipse.jetty.util.log] /tag_group: javax.persistence.PersistenceException: No name provided and several persistence units found
+[2012-10-30 15:44:21,842][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 15:44:21,903][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 15:44:21,984][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-10-30 15:44:22,016][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9400
+[2012-10-30 15:44:28,692][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 15:44:28,699][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 15:44:28,701][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 15:44:28,703][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 15:44:29,203][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 15:44:29,204][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 15:44:29,208][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 15:44:29,208][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 15:44:29,238][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 15:44:29,239][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 15:44:29,239][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 15:44:29,239][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 15:44:29,240][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 15:44:29,240][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 15:44:29,309][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 15:44:29,323][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 15:44:29,337][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 15:44:29,343][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 15:44:30,449][INFO ][com.example.controller.admin.TagAdminController] execute time:[1939]
+[2012-10-30 22:45:59,370][INFO ][com.mchange.v2.log.MLog  ] MLog clients using log4j logging.
+[2012-10-30 22:45:59,409][INFO ][com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[2012-10-30 22:45:59,769][INFO ][org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[2012-10-30 22:45:59,779][INFO ][org.hibernate.Version    ] HHH000412: Hibernate Core {4.1.3.Final}
+[2012-10-30 22:45:59,781][INFO ][org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+[2012-10-30 22:45:59,783][INFO ][org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+[2012-10-30 22:46:00,252][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.BlogTag
+[2012-10-30 22:46:00,253][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.BlogTag
+[2012-10-30 22:46:00,258][WARN ][org.hibernate.cfg.annotations.EntityBinder] HHH000081: @org.hibernate.annotations.Entity used on a non root entity: ignored for com.example.model.NewsTag
+[2012-10-30 22:46:00,259][WARN ][org.hibernate.cfg.AnnotationBinder] HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.example.model.NewsTag
+[2012-10-30 22:46:00,284][WARN ][org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+[2012-10-30 22:46:00,286][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2012-10-30 22:46:00,287][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20
+[2012-10-30 22:46:00,288][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: true
+[2012-10-30 22:46:00,288][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1/wow]
+[2012-10-30 22:46:00,289][INFO ][org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+[2012-10-30 22:46:00,348][INFO ][org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2012-10-30 22:46:00,358][INFO ][org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2012-10-30 22:46:00,377][INFO ][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[2012-10-30 22:46:00,383][INFO ][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+[2012-10-30 22:46:01,368][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,415][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,664][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,719][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,725][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,732][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,742][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,751][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,760][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,771][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,779][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,792][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,806][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,839][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-10-30 22:46:01,857][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,863][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,870][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,876][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,885][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,893][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,900][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,907][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,915][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,924][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:01,945][WARN ][org.hibernate.hql.internal.ast.QueryTranslatorImpl] HHH000104: firstResult/maxResults specified with collection fetch; applying in memory!
+[2012-10-30 22:46:02,022][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,065][WARN ][org.hibernate.hql.internal.ast.HqlSqlWalker] [DEPRECATION] Encountered positional parameter near line 1, column 46.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[2012-10-30 22:46:02,077][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,098][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,119][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,203][INFO ][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kflt8q1dfcogz2x1ryx|1b2c4791, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kflt8q1dfcogz2x1ryx|1b2c4791, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/wow?useUnicode=true&characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2012-10-30 22:46:02,293][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,298][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,305][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,311][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,318][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,334][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,343][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,352][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,363][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,373][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,419][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,437][INFO ][com.example.model.Tag    ] 我被保存了....
+[2012-10-30 22:46:02,467][INFO ][com.example.model.Tag    ] 我被保存了....

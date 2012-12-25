@@ -1,0 +1,6 @@
+[2012-12-06 20:07:32,940][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-12-06 20:07:33,017][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9500
+[2012-12-06 20:13:36,325][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-12-06 20:13:36,372][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9500
+[2012-12-06 21:41:34,560][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2012-12-06 21:41:34,636][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:8083
