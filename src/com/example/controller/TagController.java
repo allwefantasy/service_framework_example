@@ -15,6 +15,11 @@ public class TagController extends ApplicationController {
     @At(path = "/tag", types = RestRequest.Method.POST)
     public void saveTag() {
         Tag tag = Tag.create(params());
+        tag.save();
         render(tag);
+    }
+    @At(path = "/tag", types = RestRequest.Method.GET)
+    public void findTag() {
+        render(Tag.where("name='java'").fetch());
     }
 }
