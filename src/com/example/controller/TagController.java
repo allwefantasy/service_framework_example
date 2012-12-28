@@ -5,7 +5,10 @@ import com.example.model.TagSynonym;
 import net.csdn.annotation.rest.At;
 import net.csdn.modules.http.ApplicationController;
 
+import java.util.Map;
+
 import static net.csdn.modules.http.RestRequest.Method.POST;
+import static net.csdn.modules.http.support.HttpStatus.HTTP_400;
 import static net.csdn.modules.http.support.HttpStatus.HttpStatusBadRequest;
 
 /**
@@ -22,16 +25,18 @@ public class TagController extends ApplicationController {
         render(tag);
     }
 
-    @At(path = "/tag_group/{tag_group_name}/tag/{tag_name}", types = POST)
+    @At(path = "/tag_group/{tag_synonym_name}/tag/{tag_name}", types = POST)
     public void addTagToTagGroup() {
-        TagSynonym tagSynonym = TagSynonym.create(map("name", param("tag_group_name")));
-        tagSynonym.associate("tags")
-                .add(Tag.create(map("name", param("tag_name"))));
+        Map query = map("name", param("tag_synonym_name"));
 
-        if (tagSynonym.save()) {
-            render("ok");
+        TagSynonym tagSynonym = (TagSynonym) or(
+                TagSynonym.where(query).single_fetch(),
+                TagSynonym.create(query)
+        );
+
+        if (!tagSynonym.tags().add(map("name", param("tag_name")))) {
+            render(HTTP_400, tagSynonym.validateResults);
         }
-        render(HttpStatusBadRequest, "fail to save");
-
+        render("ok save");
     }
 }

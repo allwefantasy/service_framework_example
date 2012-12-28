@@ -44,19 +44,18 @@ Now,we should do something to test this relationship. We can add A action
 in `com.example.controller.TagController`
 
 ```java
+	   
+		@At(path = "/tag_group/{tag_synonym_name}/tag/{tag_name}", types = POST)
+		   public void addTagToTagGroup() {
+		       TagSynonym tagSynonym = TagSynonym.create(map("name", param("tag_synonym_name")));
+	       
+			   if(tagSynonym.associate("tags").add(map("name", param("tag_name")));){
+				   render(HttpStatusBadRequest, "fail to save");
+			   }
+	       
+			   render("ok");	       
 
-	    @At(path = "/tag_group/{tag_group_name}/tag/{tag_name}", types = POST)   
-		public void addTagToTagGroup() {
-	        TagSynonym tagSynonym = TagSynonym.create(map("name", param("tag_group_name")));
-	        tagSynonym.associate("tags")
-	                .add(Tag.create(map("name", param("tag_name"))));
-
-	        if (tagSynonym.save()) {
-	            render("ok");
-	        }
-	        render(HttpStatusBadRequest, "fail to save");
-
-	    }
+		   }
 ```
 
 Using Curl to test:
@@ -65,6 +64,61 @@ Using Curl to test:
 curl -XPOST '127.0.0.1:9500/tag_group/java_group/tag/j2ee'
 ```
 
+Creating a new Tag for a particular (exsisting or not ) TagSynonym is easier.
+
+
+There is a magic method (`associate`) in this action.`associate(tags)` will invoke a method in model named "tags" 
+which returns a  `net.csdn.jpa.association` object .
+
+When you declare a association, the declaring class automatically gains a related to the association:
+
+
+To make it more easy and intuitive,try adding code snippets in `com.example.model.TagSynonym` like this:
+
+```java
+
+public Association tags() {
+       throw new AutoGeneration();
+   }
+
+```
+At this point,your action should see like this:
+
+```java
+
+	@At(path = "/tag_group/{tag_synonym_name}/tag/{tag_name}", types = POST)
+	   public void addTagToTagGroup() {
+	       TagSynonym tagSynonym = TagSynonym.create(map("name", param("tag_synonym_name")));
+	       
+		   if(tagSynonym.tags().add(map("name", param("tag_name")))){
+			   render(HttpStatusBadRequest, "fail to save");
+		   }
+	       
+		   render("ok");	       
+
+	   }
+```
+
+To make example simple, we have ignored a lot. So let's make action more elegant and complete.
+
+
+```java
+
+@At(path = "/tag_group/{tag_synonym_name}/tag/{tag_name}", types = POST)
+    public void addTagToTagGroup() {
+        Map query = map("name", param("tag_synonym_name"));
+
+        TagSynonym tagSynonym = (TagSynonym) or(
+                TagSynonym.where(query).single_fetch(),
+                TagSynonym.create(query)
+        );
+
+        if (!tagSynonym.tags().add(map("name", param("tag_name")))) {
+            render(HTTP_400, tagSynonym.validateResults);
+        }
+        render("ok save");
+    }
+```
 
 
 

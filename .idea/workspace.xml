@@ -5,12 +5,14 @@
     <ignored path="framework2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356444646270" ignored="false" />
-    <file path="/TagController.java" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356534893053" ignored="false" />
+    <file path="/TagController.java" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356597171590" ignored="false" />
     <file path="/README.md" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356532151948" ignored="false" />
     <file path="/Step-by-Step-tutorial-for-ServiceFramework(二).md" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356532325371" ignored="false" />
     <file path="/TagGroup.java" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356535150463" ignored="false" />
     <file path="/Tag.java" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356535181444" ignored="false" />
     <file path="/Dummy.txt" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356534977572" ignored="false" />
+    <file path="/TagSynonym.java" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356596610378" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/active-orm.jar!/net/csdn/jpa/model/JPABase.class" changelist="d5eaed64-d15a-4b91-8d12-96ec61c9109b" time="1356676204492" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <file leaf-file-name="TagController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/controller/TagController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="390" selection-end="390" vertical-scroll-proportion="0.26666668">
+            <state line="31" column="34" selection-start="901" selection-end="901" vertical-scroll-proportion="0.54130435">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +94,7 @@
       <file leaf-file-name="TagSynonym.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/model/TagSynonym.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="25" column="18" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,15 +104,6 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/model/Tag.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="23" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,16 +124,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/Step-by-Step-tutorial-for-ServiceFramework(二).md" />
         <option value="$PROJECT_DIR$/src/com/example/model/TagGroup.java" />
-        <option value="$PROJECT_DIR$/src/com/example/model/TagSynonym.java" />
         <option value="$PROJECT_DIR$/src/com/example/model/Tag.java" />
+        <option value="$PROJECT_DIR$/src/com/example/model/TagSynonym.java" />
         <option value="$PROJECT_DIR$/src/com/example/controller/TagController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,17 +160,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +194,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +218,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -408,8 +400,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -419,16 +411,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.241033" sideWeight="0.50436044" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49563953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09397417" sideWeight="0.6084788" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3915212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -493,20 +485,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/model/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/MyFirstApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/controller/TagController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="8" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
@@ -553,31 +531,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/active-orm.jar!/net/csdn/jpa/association/Association.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="16" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.7846411" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/active-orm.jar!/net/csdn/jpa/model/JPQL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="18" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.3580247" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Step-by-Step-tutorial-for-ServiceFramework(2).md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/MyFirstApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/model/Tag.java">
@@ -587,16 +548,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/model/TagSynonym.java">
+    <entry file="jar://$PROJECT_DIR$/lib/active-orm.jar!/net/csdn/jpa/model/JPABase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+        <state line="30" column="39" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.34565917" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/MyFirstApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/model/TagSynonym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/service_framework.jar!/net/csdn/modules/http/ApplicationController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="0.17684887" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/active-orm.jar!/net/csdn/jpa/model/JPQL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="18" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.34375" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/active-orm.jar!/net/csdn/jpa/association/Association.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="16" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.7649456" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/controller/TagController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="390" selection-end="390" vertical-scroll-proportion="0.26666668">
+        <state line="31" column="34" selection-start="901" selection-end="901" vertical-scroll-proportion="0.54130435">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
