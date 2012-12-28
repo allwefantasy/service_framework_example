@@ -2,9 +2,11 @@
 
  To get source code about this tutorial,do like this
 
-···shell
+
+```shell
+   
    git checkout e3ea13f5398d393a75e51654605646b7fee903c8
-···
+```
 
 
 
@@ -60,7 +62,7 @@ in `com.example.controller.TagController`
 		   public void addTagToTagGroup() {
 		       TagSynonym tagSynonym = TagSynonym.create(map("name", param("tag_synonym_name")));
 	       
-			   if(tagSynonym.associate("tags").add(map("name", param("tag_name")));){
+			   if(tagSynonym.associate("tags").add(map("name", param("tag_name")))){
 				   render(HttpStatusBadRequest, "fail to save");
 			   }
 	       
@@ -75,25 +77,24 @@ Using Curl to test:
 curl -XPOST '127.0.0.1:9500/tag_group/java_group/tag/j2ee'
 ```
 
-Creating a new Tag for a particular (exsisting or not ) TagSynonym is easier.
+Hmm,creating a new tag for a particular (exsisting or not ) tag_synonym is easy.
 
 
 There is a magic method (`associate`) in this action.`associate(tags)` will invoke a method in model named "tags" 
 which returns a  `net.csdn.jpa.association` object .
 
-When you declare a association, the declaring class automatically gains a related to the association:
-
+When you declare a association, the declaring class automatically gains a related method which has same name with the declare field:
 
 To make it more easy and intuitive,try adding code snippets in `com.example.model.TagSynonym` like this:
 
 ```java
 
-public Association tags() {
-       throw new AutoGeneration();
-   }
+	public Association tags() {
+	       throw new AutoGeneration();
+	   }
 
 ```
-At this point,your action should see like this:
+At this point,your action method should  look like this:
 
 ```java
 
@@ -110,25 +111,26 @@ At this point,your action should see like this:
 	   }
 ```
 
-To make example simple, we have ignored a lot. So let's make action more elegant and complete.
+We do not consider a lot in order make this example simple.
+Now it's time to   make our  action more elegant and completely.
 
 
 ```java
 
-@At(path = "/tag_group/{tag_synonym_name}/tag/{tag_name}", types = POST)
-    public void addTagToTagGroup() {
-        Map query = map("name", param("tag_synonym_name"));
+	@At(path = "/tag_group/{tag_synonym_name}/tag/{tag_name}", types = POST)
+	    public void addTagToTagGroup() {
+	        Map query = map("name", param("tag_synonym_name"));
 
-        TagSynonym tagSynonym = (TagSynonym) or(
-                TagSynonym.where(query).single_fetch(),
-                TagSynonym.create(query)
-        );
+	        TagSynonym tagSynonym = (TagSynonym) or(
+	                TagSynonym.where(query).single_fetch(),
+	                TagSynonym.create(query)
+	        );
 
-        if (!tagSynonym.tags().add(map("name", param("tag_name")))) {
-            render(HTTP_400, tagSynonym.validateResults);
-        }
-        render("ok save");
-    }
+	        if (!tagSynonym.tags().add(map("name", param("tag_name")))) {
+	            render(HTTP_400, tagSynonym.validateResults);
+	        }
+	        render("ok save");
+	    }
 ```
 
 
