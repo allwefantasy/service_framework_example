@@ -1,4 +1,15 @@
+###Tutorial source code
+
+ To get source code about this tutorial,do like this
+
+···shell
+   git checkout e3ea13f5398d393a75e51654605646b7fee903c8
+···
+
+
+
 ###Build Model relationship
+
 
 create A new Model class `com.example.model.TagSynonym`
 
