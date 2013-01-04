@@ -2,6 +2,7 @@ package com.example.controller;
 
 import com.example.model.Tag;
 import com.example.model.TagSynonym;
+import net.csdn.annotation.filter.BeforeFilter;
 import net.csdn.annotation.rest.At;
 import net.csdn.modules.http.ApplicationController;
 
@@ -39,4 +40,27 @@ public class TagController extends ApplicationController {
         }
         render("ok save");
     }
+
+    @BeforeFilter
+    private final static Map $findTagSynonym=map("only",list("addTagToTagSynonym"));
+
+    @At(path = "/tag_synonym/{tag_synonym_name}/tag/{tag_name}", types = POST)
+    public void addTagToTagSynonym() {
+
+        if (!_tagSynonym.tags().add(map("name", param("tag_name")))) {
+            render(HTTP_400, _tagSynonym.validateResults);
+        }
+        render("ok save");
+    }
+
+    private TagSynonym _tagSynonym;
+
+    private void findTagSynonym() {
+        _tagSynonym = TagSynonym.where(map("name", param("tag_synonym_name"))).single_fetch();
+        if (_tagSynonym == null) {
+            render(HttpStatusBadRequest, param("tag_synonym_name") + " not exits");
+        }
+    }
+
+
 }
