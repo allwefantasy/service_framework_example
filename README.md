@@ -1,7 +1,3 @@
-
-* Step-by-Step-tutorial-for-ServiceFramework(1)  https://github.com/allwefantasy/service_framework_example/blob/master/README.md
-* Step-by-Step-tutorial-for-ServiceFramework(2)  https://github.com/allwefantasy/service_framework_example/blob/master/doc/Step-by-Step-tutorial-for-ServiceFramework(2).md
-
 ###clone repository:
 
 ```shell
